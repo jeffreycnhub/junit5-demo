@@ -2,6 +2,15 @@ package com.junit.demo;
 
 import org.junit.jupiter.api.*;
 
+/**
+ *
+ * "@BeforeEach": 在运行类测试时，每个方法执行前都会执行一次此注解修饰的方法；
+ * "@BeforeAll": 在运行类测试时，每个方法执行前都会执行一次此注解修饰的方法；
+ *
+ *
+ *
+ * */
+
 public class Junit5Demo_3_1_Fixtures {
     @BeforeAll
     public static void beforeAll(){
